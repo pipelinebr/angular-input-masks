@@ -13,7 +13,7 @@ function DateMaskDirective($locale) {
 		'pt-br': 'DD/MM/YYYY',
 	};
 
-	var dateFormat = dateFormatMapByLocale[$locale.id] || 'YYYY-MM-DD';
+		var dateFormat = dateFormatMapByLocale[$locale.id] || 'DD/MM/YYYY';
 
 	return {
 		restrict: 'A',
